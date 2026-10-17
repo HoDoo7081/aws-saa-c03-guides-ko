@@ -9,6 +9,19 @@
 - [번역 범위와 원문 정정 사항](TRANSLATION-NOTES.md)
 - [AWS 공식 SAA-C03 시험 가이드](https://docs.aws.amazon.com/aws-certification/latest/solutions-architect-associate-03/solutions-architect-associate-03.html)
 
+## 퀴즈 웹앱 — 클라우드 한입
+
+매일 8문제씩 공부하는 웹앱을 [실행용 HTML](cloud-bites.html)에 추가했습니다.
+
+- 기본 111문제 + 사용자 제공 PDF 심화 1,094문제
+- [단일 HTML 파일 내려받기](cloud-bites.html): 파일을 내려받아 브라우저에서 열기
+- [전체 소스 ZIP 내려받기](cloud-bites-source.zip): 압축을 풀면 코드·테스트·실행 안내가 있습니다.
+- PC·모바일 반응형, 오답 복습, XP, 기록 백업 지원
+- 소스 실행: 압축 해제 후 `python3 -m http.server 5173 --directory cloud-bites/dist`
+- 웹 배포 주소는 아직 활성화되지 않았습니다.
+
+심화 문제·수록 해설·이미지는 사용자 제공 PDF에서 변환했으며, 아래 가이드의 CC BY 4.0 라이선스 범위에 포함되지 않습니다. 소스 ZIP 안의 `SOURCE-NOTICES.md`를 확인하세요.
+
 ## 이 자료의 범위
 
 원작 [RonitSachdev/aws-saa-c03-guides](https://github.com/RonitSachdev/aws-saa-c03-guides)를 바탕으로 만든 비공식 한국어 학습 자료입니다. **문장별 전체 번역이 아닙니다.** 원문의 반복 설명·일부 수치·예제를 압축하고, 한국어로 설명을 다시 구성했습니다. 37개 주제 모두 다루며 개별 문서에서 고정 커밋의 영문 원문으로 이동할 수 있습니다.
